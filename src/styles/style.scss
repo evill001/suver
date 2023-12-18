@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 400;
+}
+
+header{
+    width: 100%;
+    height: 171px;
+    background-color: #fdeaea;
+    margin: 0 auto;
+    .header__container{
+        width: 1350px;
+        height: 171px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            height: 204px;
+        }
+        ul{
+            margin-top: 70px;
+            display: flex;
+            text-decoration: none;
+            list-style-type: none;
+            li{
+                margin-left: 34px;
+                a{
+                    text-decoration: none;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+.banner{
+    img{
+        width: 100%;
+        height: 472px;
+        margin: 0 auto;
+    }
+}
+
+.container__text-company{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 26px;
+    h3{
+        font-size: 24px;
+        margin-bottom: 23px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+.container__staff{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    .staff-one{
+        img{
+            width: 170px;
+            height: 170px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .staff-two{
+        img{
+            width: 170px;
+            height: 170px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+
+.container__text-tasks{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 26px;
+    h3{
+        font-size: 24px;
+        margin-bottom: 23px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .photo__tasks{
+        margin-left: 70px;
+        margin-top: 25px;
+    }
+}
+
+.container__about-souvenirs{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 26px;
+    h3{
+        font-size: 24px;
+        margin-bottom: 23px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+footer{
+    background-color: #fdeaea;
+    margin-top: 23px;
+    padding-top: 17px;
+    .container__footer{
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .about{
+            width: 250px;
+            text-align: center;
+            ul{
+                text-decoration: none;
+                list-style-type: none;
+                li{
+                    text-decoration: none;
+                }
+            }
+        }
+        .information{
+            width: 250px;
+            text-align: center;
+            ul{
+                text-decoration: none;
+                list-style-type: none;
+                li{
+                    text-decoration: none;
+                }
+            }
+        }
+        .telephone{
+            width: 230px;
+            text-align: center;
+            ul{
+                text-decoration: none;
+                list-style-type: none;
+                li{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.search__string{
+    margin-left: 49px;
+    margin: 29px;
+    button{
+        width: 117px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #ffc8c8;
+        border: none;
+        cursor: pointer;
+    }
+    input{
+        width: 282px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #ffc8c8;
+        border: none;
+    }
+}
+
+.title{
+    margin-left: 82px;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.container__souvenirs{
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    .souvenir{
+        text-align: center;
+        img{
+            width: 237px;
+        }
+        p{
+            font-weight: 600;
+        }
+    }
+}
+
+.information__kontakt{
+    margin-left: 82px;
+    padding: 40px;
+}
+
+.cpntainer__leader{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    .leader__sales{
+        img{
+            width: 224px;
+        }
+    }
+}
+
